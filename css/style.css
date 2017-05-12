@@ -1,22 +1,26 @@
 body {
   background: pink;
 
+}
+
+
+  p {
+      font-family: "Times New Roman", Georgia, Serif;
+  }
+
+
+
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 200%;
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
-.completed {
-  font-family: 12px;
-}
-
-#tasks .completed 
-  backgound: #ccc;
-  text-decoration: underline;
+li.completed {
+text-decoration: underline;
 }
